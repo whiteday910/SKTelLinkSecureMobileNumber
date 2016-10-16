@@ -10,6 +10,7 @@ SK텔링크의 0504 안심번호 소켓 인터페이스를 PHP에서 사용하�
 #### 안심번호 할당하기
 ```php
 <?php
+  require_once "./secmobnumber.php"
   $numberSample = SECMOB01_getSecNumberWithOriginNumber("01099998888");
   echo  $numberSample;
 ?>
