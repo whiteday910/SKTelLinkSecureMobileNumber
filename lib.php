@@ -104,8 +104,8 @@ function sec03_socketWithMessage($message)
 
     $out = '';
 
-    /// 서버에서 소켓을 끊을 수 있도록 추가적인 공백을 보냄.
-    $message = $message.sec01_makeWhiteSpaceWithLength(50);
+    /// 서버에서 소켓을 끊을 수 있도록 \r\n 을 보냄.
+    $message = $message."\r\n";
 
 
     $write_result = socket_write($socket, $message);

@@ -6,17 +6,15 @@
 
 
 /// SK텔링크 안심번호 서버 정보 --> ex> 211.xxx.xxx.xxx
-$SKTEL_SERVER_IP = "211.237.78.41";
-$SKTEL_SERVER_PORT = 48880;
+$SKTEL_SERVER_IP = "xxx.xxx.xxx.xxx";
+$SKTEL_SERVER_PORT = 12345678;
 
 /// SK텔링크의 고객번호 기입 --> ex> 9876
-$SKTEL_CLIENT_CODE = "1202";
+$SKTEL_CLIENT_CODE = "1234";
 
 /// SK텔링크의 그룹코드 (반드시 10자리로 채워야 한다.)  --> 만약 그룹코드가 'aila_1' 일 경우  ex> "aila_1    "
-$SKTEL_SEC_GROUP01 = "luxi_1    ";
+$SKTEL_SEC_GROUP01 = "pppppp    ";
 
-/// 소스에서는 그룹 1개만 사용하므로 주석처리
-//$SKTEL_SEC_GROUP02 = "luxi_2    ";
 
 
 ////////  -----   업무요청코드  (매뉴얼 고정값이므로 변경금지!!)  ----- ////////
